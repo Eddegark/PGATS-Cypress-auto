@@ -1,0 +1,18 @@
+{
+  "name": "Maria Silva",
+  "password": "Password@123",
+  "title": "Mrs",
+  "birthDay": "15",
+  "birthMonth": "6",
+  "birthYear": "1992",
+  "firstName": "Maria",
+  "lastName": "Silva",
+  "company": "QA Company",
+  "address": "100 King Street West",
+  "address2": "Suite 21",
+  "country": "Canada",
+  "state": "Ontario",
+  "city": "Toronto",
+  "zipcode": "M5H2N2",
+  "mobileNumber": "11999998888"
+}

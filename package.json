@@ -1,0 +1,14 @@
+{
+  "name": "automation-exercise-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automation Exercise E2E tests with Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
