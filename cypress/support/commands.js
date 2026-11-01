@@ -42,6 +42,8 @@ Cypress.Commands.add('deleteUserByApi', (user) => {
     url: '/api/deleteAccount',
     form: true,
     body: { email: user.email, password: user.password }
+  }).then(({ body }) => {
+    expect(parseApiBody(body).responseCode).to.eq(200)
   })
 })
 
